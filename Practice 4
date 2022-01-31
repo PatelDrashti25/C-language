@@ -1,0 +1,20 @@
+/*Write a program to calculate simple interest for a set of values representing principal,
+no. of years and rate of interest*/
+
+#include<stdio.h>
+int main()
+{
+	int p = 4, r = 100, t = 6;
+	
+	printf("Enter the value of principal\n");
+	scanf("%d",&p);
+	
+	printf("Enter the value of rate of interest\n");
+	scanf("%d",&r);
+	
+	printf("Enter the value of no. of years\n");
+	scanf("%d",&t);
+	
+	printf("calculate the simple interest %d",p*r*t);
+	return(0);
+}
